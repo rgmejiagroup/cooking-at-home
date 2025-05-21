@@ -27,8 +27,7 @@
       "protein": "N/A",
       "duration": "1 hour",
       "id": 4
-    }
-  ],
+    },
   "ingredients"
     {
       "item_id": 1,
@@ -58,5 +57,4 @@
       "expiration_date": "2025-06-12",
       "id": 4
     }
-  ]
 }
