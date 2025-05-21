@@ -1,0 +1,62 @@
+{
+  "meals"
+    {
+      "time": "Breakfast",
+      "cook_method": "Stovetop",
+      "protein": "Powder",
+      "duration": "30 minutes",
+      "id": 1
+    },
+    {
+      "time": "Lunch",
+      "cook_method": "Air fryer",
+      "protein": "Chicken",
+      "duration": "15 minutes",
+      "id": 2
+    },
+    {
+      "time": "Dinner",
+      "cook_method": "Oven",
+      "protein": "Salmon",
+      "duration": "45 minutes",
+      "id": 3
+    },
+    {
+      "time": "Dessert",
+      "cook_method": "Oven",
+      "protein": "N/A",
+      "duration": "1 hour",
+      "id": 4
+    }
+  ],
+  "ingredients"
+    {
+      "item_id": 1,
+      "name": "Hashbrown",
+      "description": "Trader Joe's, frozen",
+      "expiration_date": "2026-08-23",
+      "id": 1
+    },
+    {
+      "item_id": 2,
+      "name": "Salmon",
+      "description": "Costco (boneless & skinless), frozen",
+      "expiration_date": "2025-09-27",
+      "id": 2
+    },
+    {
+      "item_id": 3,
+      "name": "Bagel",
+      "description": "Costco, fresh",
+      "expiration_date": "2025-05-17",
+      "id": 3
+    },
+    {
+      "item_id": 4,
+      "name": "Heavy whipping cream",
+      "description": "Publix, refridgerator",
+      "expiration_date": "2025-06-12",
+      "id": 4
+    }
+  ]
+}
