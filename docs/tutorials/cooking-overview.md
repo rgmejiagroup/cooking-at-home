@@ -48,4 +48,4 @@ Before using the API, developers should:
 You can explore:
 - [API References](../api/)
 - [Tutorials](../tutorials/)
-- [Quick Start Guide](../tutorials/index.md)
+- [Quick Start Guide](../index.md)
