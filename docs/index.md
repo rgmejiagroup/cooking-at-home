@@ -2,43 +2,30 @@
 layout: page
 ---
 
-# To-Do service API
+# Cooking-at-Home API
 
-This is a mock API to simulate the REST interface of an
-imaginary service.
+This is a mock API to simulate recipe management and cooking organization.
 
-The To-Do service provides a cloud-hosted task list through which
-subscribers can post tasks and receive reminders of those tasks.
+The Cooking-at-Home service helps users create, update, and manage meal plans and ingredients for any time of day. It simulates a cloud-based cooking journal with endpoints for users and recipes.
 
 ## Quickstart
 
-[Post your first task _(coming soon)_](#quickstart) with the To-Do service to see how easy it is to use!
+Use the tutorials below to set up your environment and try out common cooking tasks.
 
 ## Tutorials
 
-Learn how to do common tasks with in the To-Do service.
+Follow these tutorials to get started:
 
-First, do this tutorial to set up your development system for these tutorials. You only have to do this one time per development system.
+- [Before you start a tutorial](./before-you-start-a-tutorial.md)
+- [Enroll a new user](./tutorials/enroll-a-new-user.md)
+- [Add a new recipe](./tutorials/add-a-new-task.md)
+- [Update or delete a recipe](./tutorials/update-delete-recipe.md)
 
-* [Before you start a tutorial](before-you-start-a-tutorial.md)
+## API Reference
 
-After your system is ready, these tutorials show you how to perform common tasks.
+Browse the API docs for supported endpoints:
 
-* [Enroll a new user](tutorials/enroll-a-new-user.md)
-* [Add a new task](tutorials/add-a-new-task.md)
-* [Change the due-date of a task _(coming soon)_](#tutorials)
-* [Delete a task _(coming soon)_](#tutorials)
-
-## API reference docs
-
-Detailed descriptions of the service's resources.
-
-The API reference docs refer to a `{base_url}` when they
-refer to the URL of a resource. The `{base_url}` value depends
-on the installation of the service.
-
-When run locally for testing, the `{base_url}` is
-generally `http://localhost:3000`.
-
-* [user resource](api/user.md)
-* [task resource](api/task.md)
+- [GET all recipes](./api/task.md)
+- [PATCH a recipe](./api/recipes-patch.md)
+- [DELETE a recipe](./api/recipes-delete.md)
+- [GET user by ID](./api/users-get-user-by-id.md)
