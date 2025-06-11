@@ -1,30 +1,54 @@
-# to-do-service
+# cooking-at-home
 
-REST API Sample for shared documentation practice
+A REST API project for documenting and testing cloud-based recipe sharing and user enrollment, developed as part of an API documentation portfolio.
 
-For the REST API docs, see [The To-Do Service docs](https://uwc2-apidoc.github.io/to-do-service-sp25/).
+For endpoint references and tutorials, see the [`docs/`](./docs) folder.
 
-**NOTE**:
+> **NOTE**:  
+> This repo is instructional and experimental. Use at your own risk. No warranty of serviceability is implied.
 
-This code is experimental and is intended for instructional use only.
-Use at your own risk. No warranty of serviceability is expressed or implied.
+---
 
-## Contributing documentation
+## 🧩 Project Overview
 
-Feel free to contribute new documentation and improve existing the existing docs.
+This API simulates a collaborative cooking experience. Features include:
+- Recipe management (create, update, delete)
+- User enrollment and lookup
+- Tutorial-based documentation and usability test plans
 
-If you'd like to contribute:
+---
 
-1. Fork this repository to your own GitHub account.
-2. Make sure you can build a local copy of the documentation from your fork.
-3. Install [Vale](https://vale.sh/) on your development or editing computer.
-   To help you have a successful pull request experience, it's also helpful
-   to add these extensions if you edit in VSCode:
-    * Markdownlint
-    * Vale VSCode
-4. A successful pull request:
-    * Must not require additional content in order for your pull request to work.
-    * Must help the end user of the product. Ideally you'll address an issue, while some opportunities for improvement don't have a corresponding issue.
-    * Must have no lint or Vale errors.
-    * Must have no errors in any code examples.
-5. Test your changes locally from your feature branch before you submit a pull request, please.
+## 🧪 Usability & Documentation
+
+This project includes:
+- [Tutorials](./docs/tutorials): Step-by-step guides for common API tasks
+- [Usability Test Plan](./docs/tutorials/usability-test-plan.md): Designed to assess clarity and flow
+- [API Reference](./docs/api): Descriptions for `recipes`, `users`, and tasks
+
+---
+
+## 👩‍💻 Contributing Documentation
+
+We welcome contributions!
+
+### To contribute:
+
+1. **Fork this repo** into your GitHub account.
+2. **Clone it locally**, and build/test from your fork.
+3. **Install [Vale](https://vale.sh/)** for style linting.
+4. Recommended VSCode Extensions:
+   - `Markdownlint`
+   - `Vale`
+5. Before making a pull request:
+   - Ensure your PR adds working and helpful content.
+   - Verify **no broken JSON**, no Vale or Markdown lint errors.
+   - Test tutorials and endpoints locally (if applicable).
+
+---
+
+## 🚧 In Progress
+
+This repo is part of an ongoing portfolio project aligned with a Change Management specialization. Documentation and tutorials are structured to support the onboarding and upskilling of future Hacienda staff.
+
+---
+
