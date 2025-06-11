@@ -1,5 +1,5 @@
 {
-  "meals"
+  "meals": [
     {
       "time": "Breakfast",
       "cook_method": "Stovetop",
@@ -27,8 +27,9 @@
       "protein": "N/A",
       "duration": "1 hour",
       "id": 4
-    },
-  "ingredients"
+    }
+  ],
+  "ingredients": [
     {
       "item_id": 1,
       "name": "Hashbrown",
@@ -53,8 +54,9 @@
     {
       "item_id": 4,
       "name": "Heavy whipping cream",
-      "description": "Publix, refridgerator",
+      "description": "Publix, refrigerator",
       "expiration_date": "2025-06-12",
       "id": 4
     }
+  ]
 }
