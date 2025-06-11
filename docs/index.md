@@ -19,7 +19,7 @@ Follow these tutorials to get started:
 - [Before you start a tutorial](./before-you-start-a-tutorial.md)
 - [Enroll a new user](./tutorials/enroll-a-new-user.md)
 - [Add a new recipe](./tutorials/add-a-new-task.md)
-- [Update or delete a recipe](./tutorials/update-delete-recipe.md)
+- [Update and delete a recipe](tutorials/update-delete-recipe.md)
 
 ## API Reference
 
