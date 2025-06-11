@@ -15,6 +15,7 @@ This API simulates a collaborative cooking experience. Features include:
 - Recipe management (create, update, delete)
 - User enrollment and lookup
 - Tutorial-based documentation and usability test plans
+- Full tutorials include how to add, update, and delete recipes, as well as enrolling new users
 
 ---
 
@@ -26,6 +27,12 @@ This project includes:
 - [API Reference](./docs/api): Descriptions for `recipes`, `users`, and tasks
 
 ---
+
+## Documentation Paths
+
+- [API Reference Docs](docs/api/)
+- [Tutorials](docs/tutorials/)
+- [Start Here](docs/index.md)
 
 ## 👩‍💻 Contributing Documentation
 
